@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    .headerSection {
+        position: fixed;
+        top: 0;
+        height: 12vh;
+        width: 100%;
+        background-color: royalblue;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .burger {
+        height: 25px;
+        width: 25px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        margin: auto 10px;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        height: 2px;
+        width: 90%;
+        background-color: white;
+        margin: auto;
+    }
+
+    .titleDiv {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .titleDiv>i {
+        font-size: 20px;
+        color: white;
+    }
+
+    .appTitle {
+        color: white;
+    }
+
+    .mainpage {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .searchSection {
+        height: 19vh;
+        width: 100%;
+        background-color: limegreen;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchbar {
+        height: 14px;
+        width: 85%;
+        padding: 10px;
+        border-radius: 30px;
+        border: 1px solid rgb(238, 238, 238);
+        text-align: center;
+    }
+
+    .subtext {
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .space {
+        height: 40vh;
+        width: 100%;
+        background-image: url(/images/hotel1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pillow {
+        height: 18vh;
+        width: 100%;
+        background-color: royalblue;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .pillow>i {
+        color: white;
+        font-size: 40px;
+    }
+
+    .appTitle2 {
+        color: white;
+        font-size: 40px;
+    }
+
+    .text {
+        color: white;
+    }
+
+    .slider {
+        height: 30vh;
+        width: 100%;
+        background-color: lightgrey;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+
+
+    .pic {
+        height: 100%;
+        width: 100%;
+    }
+
+    .content1 {
+        height: 150vh;
+        width: 100%;
+        background-color: rgb(212, 221, 247);
+        text-align: center;
+    }
+
+    .app {
+        text-align: left;
+        padding: 10px;
+        color: rgb(5, 5, 75);
+    }
+
+    .div1 {
+        height: 35vh;
+        width: 90%;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 8px 10px rgb(180, 188, 211);
+        margin: 15px auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div1>i {
+        font-size: 55px;
+        color: rgb(5, 5, 75);
+    }
+
+    .signup {
+        background-color: limegreen;
+        color: white;
+        border-radius: 30px;
+        height: 40px;
+        width: 95%;
+        border: none;
+        font-weight: bold;
+        margin: 10px auto;
+    }
+
+    footer {
+        height: 25vh;
+        width: 100%;
+        background-color: royalblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .icons {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .listOfIcons {
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .icon {
+        font-size: 35px;
+        color: white;
+    }
+}
