@@ -89,9 +89,9 @@ input:focus {
 
     .inner>i {
         margin: 0 20px;
-        font-size: 30px;
+        font-size: 35px;
         border: 3px solid rgb(30, 223, 56);
-        padding: 25px;
+        padding: 28px;
         border-radius: 50%;
         color: rgb(30, 223, 56);
         background-color: white;
@@ -158,8 +158,20 @@ input:focus {
     }
 
     .mainpage {
-        height: 80vh;
+        height: 90vh;
         width: 100%;
+    }
+
+
+    .loginbutton {
+        color: white;
+        background-color: rgb(30, 223, 56);
+        border: none;
+        margin: 0 auto;
+        height: 35px;
+        width: 90%;
+        border-radius: 30px;
+        font-weight: bold;
     }
 
     .searchSection {
@@ -190,13 +202,13 @@ input:focus {
     .space {
         height: 40vh;
         width: 100%;
-        background-image: url(/images/hotel1.jpg);
+        background-image: url(/hotel1.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .pillow {
-        height: 18vh;
+        height: 27vh;
         width: 100%;
         background-color: royalblue;
         text-align: center;
