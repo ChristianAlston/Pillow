@@ -17,9 +17,29 @@
 </head>
 
 <body>
+    <nav id="side" class="side">
+        <div class="stuff">
+            <h1 class="header">Pillow</h1>
+            <div class="things">
 
+                <ul class="ic">
+                    <div class="inner">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="blueLine"></div>
+                    <li class="listItem"><i class="fas fa-home"></i> Home</li>
+                    <li class="listItem"><i class="fas fa-search"></i> Search</li>
+                    <li class="listItem"><i class="far fa-star"></i> Favorites</li>
+                    <li class="listItem"><i class="fas fa-cog"></i> Settings</li>
+                    <li class="listItem"><i class="fas fa-sign-out-alt"></i> Logout</li>
+                </ul>
+
+            </div>
+        </div>
+        <i id="close" class="fas fa-times"></i>
+    </nav>
     <div class="headerSection">
-        <div class="burger">
+        <div id="burger" class="burger">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
@@ -58,19 +78,36 @@
     <div class="content1">
         <h1 class="app">This app is very cool.</h1>
         <div class="div1">
+            <div class="top"></div>
             <i class="fas fa-hotel"></i>
             <h2 class="div1Title">Find hotels.</h2>
             <p class="div1Text">This app allows you to find the best and safest hotels of all time dammit.</p>
+            <div class="bottom"></div>
         </div>
         <div class="div1">
+            <div class="top"></div>
             <i class="far fa-user-circle"></i>
             <h2 class="div1Title">User friendly.</h2>
             <p class="div1Text">This app allows users to create an account and store hotels they fancy.</p>
+            <div class="bottom"></div>
         </div>
         <div class="div1">
+            <div class="top"></div>
             <i class="fas fa-car"></i>
             <h2 class="div1Title">Driven.</h2>
             <p class="div1Text">This app allows users to drive and use this at the same damn time.</p>
+            <div class="bottom"></div>
+        </div>
+        <div class="demoPics">
+            <img src="" alt="" class="demo">
+            <div class="demoText">
+                <h1 class="above">Above is your Dashboard.</h1>
+                <p class="moreText">You have many options to choose from.</p>
+            </div>
+            <div class="demoText">
+                <h1 class="above">Above is your Dashboard.</h1>
+                <p class="moreText">You have many options to choose from.</p>
+            </div>
         </div>
         <button class="signup">Get Started</button>
         <footer>
@@ -86,6 +123,21 @@
         </footer>
     </div>
 </body>
+<script>
+    let showMenu = () => {
+        document.getElementById("side").style.width = "100%";
+    };
 
+    let closeMenu = () => {
+        document.getElementById("side").style.width = "0%";
+    };
+
+    document.getElementById("side").addEventListener("click", () => {
+        document.getElementById("side").style.width = "0%";
+    });
+
+    document.getElementById("burger").addEventListener("click", showMenu);
+    document.getElementById("close").addEventListener("click", closeMenu);
+</script>
 
 </html>
