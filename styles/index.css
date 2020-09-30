@@ -13,6 +13,10 @@ input:focus {
     outline: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 520px) {
     .headerSection {
         position: fixed;
