@@ -36,7 +36,7 @@ app.get('/userPage', (req, res) => {
 })
 
 app.get('/hotelResults', (req, res) => {
-    // res.render('hotelResults', results)
+    res.render('hotelResults')
 })
 
 app.get('/hotelModal', (req, res) => {
